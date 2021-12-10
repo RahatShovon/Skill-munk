@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+/*header section*/
+
+.nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0px;
+}
+
+.nav-left{
+	display: flex;
+}
+
+.nav-left img{
+	width: 170px;
+	height: auto;
+	margin-right: 35px;
+}
+
+.nav-left ul{
+	display: flex;
+	list-style: none;
+}
+
+.nav-left ul li{
+	list-style: none;
+	display: inline-block;
+	line-height: 2.7;
+	margin: 0px 20px;
+}
+
+.nav-left ul li a{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.nav-right button{
+	background-color: #03DAC5;
+	padding: 10px 30px;
+	border: none;
+	border-radius: 2px;
+}
+
+.nav-right button a{
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.header{
+	background: #6600ee;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+	background: url(../img/cover.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/*banner section*/
+
+.banner-item{
+	margin-top: 300px;
+}
+
+.banner-item h1, p{
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+}
+
+.banner-item h1{
+	font-size: 52px;
+	font-weight: 700;
+	line-height: 1.3em;
+}
+
+.banner-item p{
+	font-size: 26px;
+	margin-top: 30px;
+	font-size: 100%;
+}
+
+.banner-item button{
+	background-color: #03DAC5;
+	border-radius: 4px;
+	padding: 15px 30px;
+	border: none;
+	margin-top: 50px;
+}
+
+.banner-item button a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+/*footer section*/
+
+
+.footer{
+	background-color: #6200EE;
+	margin-top: 1000px;
+}
+
+.footer-content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-left, .footer-middle, .footer-right{
+	margin: 80px 0px;
+	color: #fff;
+	flex-basis: 33%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.footer-middle, .footer-right ul{
+	text-decoration: none;
+}
+
+.footer-middle ul li, .footer-right ul li{
+	list-style: none;
+	font-size: 16px;
+	padding: 5px 0px;
+}
+
+.footer-left p{
+	font-size: 16px;
+	padding: 3px 0px;
+	margin-right: 10px;
+}
